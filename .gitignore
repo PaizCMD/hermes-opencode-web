@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.local
+*.env.*
+
+# OS / editor
+.DS_Store
+*.swp
+.DS_Store?
+
+# Build artifacts
+dist/
+*.log

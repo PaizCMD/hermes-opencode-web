@@ -1,0 +1,11 @@
+services:
+  web:
+    build: .
+    image: forgeai/landing-page:latest
+    container_name: forgeai-web
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    # No secrets or environment variables are required for this static demo.
+    environment:
+      - TZ=Asia/Jakarta
